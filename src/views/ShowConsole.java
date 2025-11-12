@@ -51,7 +51,9 @@ public class ShowConsole {
 
     public void showPersonResult(Persona resultadoPer3, int i, boolean nombre){
         if(resultadoPer3 == null){
-            
+            System.out.println("No se encontro la persona con el nombre de valor: " + i);
+        } else {
+            System.out.println("La persona con el nombre de valor (" + i + ") es: " + resultadoPer3.getName());
         }
     }
 
